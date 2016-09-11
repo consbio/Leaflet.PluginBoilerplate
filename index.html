@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>TODO</title>
+    <link rel="stylesheet" href="//unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
+    <link rel="stylesheet" href="L.Control.PluginBoilerplate.css" />
+</head>
+<body>
+    <script src="//unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet-src.js"></script>
+    <script src="L.Control.PluginBoilerplate.js"></script>
+    <div id="map" style="position: absolute; top: 0; left:0; bottom:0; right: 0;"></div>
+
+    <script>
+        var map = L.map('map').setView([44.07, -118.78], 5);
+
+        // TODO:
+        map.addControl(L.Control.PluginBoilerplate({
+            position: 'bottomright'
+        }));
+
+    </script>
+</body>
+</html>

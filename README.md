@@ -17,5 +17,4 @@ Leaflet plugins.
   * reset version number to 0.1.0
   * update the description and authors sections
 * replace README.md with README_template.md and update as needed
-
-Update the `index.html` file to showcase your new plugin.
+* update the TODOs in `index.html` file to showcase your new plugin.
