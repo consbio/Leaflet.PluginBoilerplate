@@ -14,6 +14,13 @@
     <script>
         var map = L.map('map').setView([44.07, -118.78], 5);
 
+        L.tileLayer('//stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}.png', {
+            attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+            subdomains: 'abcd',
+            maxZoom: 10,
+            minZoom: 2
+        }).addTo(map);
+
         // TODO:
         map.addControl(L.Control.PluginBoilerplate({
             position: 'bottomright'

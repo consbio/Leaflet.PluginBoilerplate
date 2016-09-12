@@ -37,7 +37,7 @@ TODO: example usage
 
 
 ## Credits:
-TODO: credits and inpirational modules
+TODO: credits and inspirational modules
 
 
 ## Contributors:

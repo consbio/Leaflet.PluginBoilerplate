@@ -16,5 +16,6 @@ Leaflet plugins.
   * 'leafet-plugin-boilerplate' -> 'my-plugin-name-on-npm'
   * reset version number to 0.1.0
   * update the description and authors sections
+* update the CSS classes assigned to the control container in the L.Control.*.js file
 * replace README.md with README_template.md and update as needed
 * update the TODOs in `index.html` file to showcase your new plugin.

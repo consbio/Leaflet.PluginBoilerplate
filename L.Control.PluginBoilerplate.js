@@ -6,14 +6,15 @@ L.Control.PluginBoilerplate = L.Control.extend({
     },
     onAdd: function (map) {
         this._map = map;
-        var container = L.DomUtil.create('div', 'basemaps leaflet-control closed');
+
+        // TODO: add appropriate classes here
+        var container = L.DomUtil.create('div', 'leaflet-plugin-boilerplate');
 
         // Disable events on container
         L.DomEvent.disableClickPropagation(container);
         if (!L.Browser.touch) {
             L.DomEvent.disableScrollPropagation(container);
         }
-        L.DomEvent.on(slider, 'mousedown mouseup click', L.DomEvent.stopPropagation);
 
         // TODO: if mouse enter / leave events are needed, uncomment this
         // L.DomEvent.on(container, 'mouseenter', function() {
